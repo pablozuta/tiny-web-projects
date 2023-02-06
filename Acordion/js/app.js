@@ -1,5 +1,5 @@
-var acc = document.getElementsByClassName("acordion");
-var i;
+let acc = document.getElementsByClassName("acordion");
+let i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
@@ -8,7 +8,7 @@ for (i = 0; i < acc.length; i++) {
     this.classList.toggle("active");
 
     /* Toggle entre mostrar y ocultar los paneles */
-    var panel = this.nextElementSibling;
+    let panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
