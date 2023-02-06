@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    background-color: rgb(5, 9, 8);
+    color: cornflowerblue;
+    font-size: 1.2rem;
+}
+
+.acordion {
+    font-size: 1.3rem;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: coral;
+    cursor:pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+
+  .active, .acordion:hover {
+    background-color: rgb(79, 71, 71);
+  }
+  
+ 
+  .panel {
+    color: bisque;
+    margin: auto;
+    text-align: justify;
+    padding: 0 18px;
+    width: 90%;
+    background-color: rgb(1, 0, 0);
+    display: none;
+    overflow: hidden;
+  }
