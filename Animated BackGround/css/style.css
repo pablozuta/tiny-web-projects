@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: change 20s ease-in-out infinite;
+}
+
+section {
+  max-width:900px;
+  height: 100vh;
+  margin:auto;
+  
+}
+header{
+  padding:2rem;
+}
+.contenedor{
+  background-color: aquamarine;
+  padding: 1.3rem;
+  margin-inline: 2rem;
+  margin-top: 2rem;
+  color: #000;
+  border-radius: 5px;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
