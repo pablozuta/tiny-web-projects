@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,200&display=swap');
+
+:root {
+  --gradient: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --dark: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin-inline: 8%;
+  color: rgb(211, 179, 190);
+  background-color: rgb(243, 239, 239);
+  font-size: 1.3rem;
+  background-color: #330033;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'%3E%3Ccircle fill='%2306B' cx='45' cy='45' r='10'/%3E%3Cg fill='%23800' fill-opacity='1'%3E%3Ccircle cx='0' cy='90' r='10'/%3E%3Ccircle cx='90' cy='90' r='10'/%3E%3Ccircle cx='90' cy='0' r='10'/%3E%3Ccircle cx='0' cy='0' r='10'/%3E%3C/g%3E%3C/svg%3E");
+  /* from https://www.svgbackgrounds.com/ */
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 2rem;
+}
+
+.box {
+  background: linear-gradient(90deg, black 96%, transparent 1%) center,
+    linear-gradient(black 96%, transparent 1%) center, rgb(229, 240, 244);
+  background-size: 20px 20px;
+  border: 8px solid coral;
+  margin-top: 3%;
+  padding-inline: 2%;
+  padding-block: 1%;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075);
+}
+
+@media (max-width: 900px) {
+  body {
+    margin-inline: 2%;
+  }
+  h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+  }
+}
