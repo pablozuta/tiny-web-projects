@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,200&display=swap');
+
+:root {
+  --gradient: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --dark: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body {
+  background-color: wheat;
+  
+  font-size: 1.1rem;
+}
+
+p {
+  color: black;
+}
+
+.container-cards {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width: 900px) {
+  .container-cards {
+    flex-direction: column;
+  }
+}
+.profile-card {
+  
+  text-align: left;
+  border-radius: 5px;
+  padding: 0.6rem;
+  height: max-content;
+  max-width: 420px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-left: 3rem;
+  transition: all 3s;
+}
+
+.profile-card > h4 {
+  color: palevioletred;
+  font-weight: 600;
+}
+.profile-card > p {
+  color: #00000099;
+}
+
+
+
+.profile-avatar {
+  border-radius: 90%;
+  border: 1px solid gray;
+  width: 120px;
+  height: 120px;
+}
+
+.location-card {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-start;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  
+}
+.location-card > p {
+  font-size: 1rem;
+  color: #00000099;
+}
+.location-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.messages-item{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-card > a{
+  color: #6cbaa6;
+  text-decoration: none;
+  transition: all 0.8s;
+}
+.profile-card > a:hover{
+  color: palevioletred;
+  cursor: pointer;
+  
+}
