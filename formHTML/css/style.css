@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    
+    background-color: whitesmoke;
+    color: cornflowerblue;
+    font-size: 1.5rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #5555;
+    margin-top: 2rem;
+    max-width: 500px;
+    
+    margin-inline: auto;
+    
+
+}
+
+form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+ 
+}
+form > input {
+    font-size: 1.5rem;
+}
+
+form input , button{
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+form > button{
+    background-color:cornflowerblue;
+    color: #000;
+    border-radius: 5px;
+    margin-inline: auto;
+    font-size: 1.3rem;
+    
+}
+form > button:hover{
+    cursor: pointer;
+    
+}
