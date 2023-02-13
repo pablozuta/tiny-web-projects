@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,200&display=swap');
+
+:root {
+  --gradient: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --dark: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: wheat;
+  color: coral;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+.c {
+  color: black;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.parent {
+  height: 80vh;
+  border: 20px solid black;
+  display: flex;
+  flex-wrap: wrap; /* hace que los elementos pasen al siguiente row si no tienen espacio */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  /* combina direccion y wrap en un solo elemento
+    flex-flow: column wrap; */
+
+  /* depende si estamos en columnas o rows
+    align-content:space-around;  */
+}
+
+.child1 {
+  flex: 2;
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
+.child2 {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  background-color: plum;
+}
+.child3 {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  background-color: palevioletred;
+}
