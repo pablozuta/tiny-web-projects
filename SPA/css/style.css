@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,800;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+  --gradient: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --dark: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    
+    margin: auto;
+    background-color: var(--dark);
+    color: coral;
+    font-size: 1.5rem;
+}
+h1 {
+  color: gray;
+}
+p{
+    font-family: 'Share Tech Mono', monospace;
+    color: #41ade5;
+
+}
+div {
+  display: none;
+}
+button {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  align-self: center;
+  padding: 0.7rem 1.2rem;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.3rem;
+  border: 2px solid coral;
+  transition: all 0.4s;
+}
+button:hover {
+  color: coral;
+  box-shadow: 3px 3px 20px #f0f403, 3px 2px 20px #f4501e;
+}
